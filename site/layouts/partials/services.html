@@ -1,0 +1,85 @@
+<div id="fh5co-services" data-section="services">
+  {{ with .Site.Params.services }}
+  {{ if .video }}
+  <div class="fh5co-video"><a href="{{ with .vidlink }}{{ . }}{{ end }}" class="popup-vimeo"><i class="icon-play2"></i></a> <span>Watch video</span></div>
+  {{ end }}
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+      <h2>{{ .title }}</h2>
+      <p>{{ .description | markdownify }}</p>
+    </div>
+    
+
+	    <div class="col-md-4" id="home-services-buttons">
+		    <a id="soko-events" href="/events">
+		        <div class="service">
+				<div class="icon"><i class="icon-cogs"></i></div>
+				<h3>Event Curation & Production</h3>
+				<p>SokoEvents brings together an intersectoral team of expert curators in the production of events related to science, technology and innovation.</p>
+		    </a>
+      </div>
+    </div>
+    
+    
+        <div class="col-md-4" id="home-services-buttons" >
+	        <a id="soko-comms" href="/comms">
+			    <div class="service">
+				<div class="icon"><i class="icon-volume-up"></i></div>
+				<h3>Communications</h3>
+				<p>Focusing on quality and care of detail, we offer integrated communication services to create a personalized product for each of the initiatives that entrust us.</p>
+		    </a>
+      </div>
+    </div>
+    
+    
+        <div class="col-md-4" id="home-services-buttons" >
+      	    <a id="soko-design" href="/design">
+	            <div class="service">	
+				<div class="icon"><i class="icon-code-fork"></i></div>
+				<h3>Digital Design and Development</h3>
+				<p>Our creative approach to problem solving give us the right tools for working effectively in designing new solutions tailored to meet our customers needs.</p>
+		    </a>
+      </div>
+    </div>
+    
+    
+        <div class="col-md-4" id="home-services-buttons" >
+	        <a  id="soko-lab" href="/lab">
+				<div class="service">
+				<div class="icon"><i class="icon-wrench"></i></div>
+				<h3>SokoLab</h3>
+				<p>In our Laboratory for Digital & Analog Exploration we research, develop and test projects based on new technologies, design innovation and social impact.</p>
+		        </div>
+	        </a>
+	    </div>
+    
+    
+        <div class="col-md-4" id="home-services-buttons" >
+	        <a  id="soko-kids" href="/kids">
+                <div class="service">
+				<div class="icon"><i class="icon-rocket"></i></div>
+				<h3>SokoKids</h3>
+				<p>Applying the project-based learning methodology, we offer a program of extra-curricular activities that focuses on personalized learning, which uses creativity, teamwork and trial-error solutions for the real world.</p>
+		        </div>
+	        </a>
+	    </div>
+    
+    
+        <div class="col-md-4" id="home-services-buttons" >
+	        <a  id="soko-space" href="/space">
+			    <div class="service">
+				<div class="icon"><i class="icon-home"></i></div>
+				<h3>SokoSpace</h3>
+			<p>SokoTech is located in a 20th century antique chocolate Factory in the old quarter of La Sagrera neighborhood. The ground floor is divided in two different and diaphanous spaces of 180m2 and 350m2 than can be rented individually or together for activities and events.</p>
+        </div>
+      		</a>
+        </div>
+
+    
+    <div class="col-md-12 text-center">
+      <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="contact">Get In Touch</a></p>
+    </div>
+    
+  </div>
+  {{ end }}
+</div> <!-- END fh5co-services -->

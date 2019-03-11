@@ -1,0 +1,249 @@
+################################################################################ Main config file for icon theme.
+theme = "icon-master"
+baseURL = "http://soko.tech"
+title = "SokoTech"
+
+
+
+
+
+################################################################################ Metadata
+[params]
+  author = "SokoTech"
+  description = "SokoTech"
+
+
+
+
+
+
+
+
+################################################################################ Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/home/hero_bg_1.jpg"
+  title = "We create, test & scale, innovative programs with high impact potential, focusing attention on the ideas and solutions that create social value."
+  description = ""
+
+
+
+
+
+
+
+
+################################################################################ Navigation section
+[params.nav]
+  mission = "About"
+  services = "Projects"
+  contact = "Contact"
+  # Include logo instead if HOME:
+  logo = "images/soko-logos/sokotech-logo.svg"
+
+
+
+
+
+
+
+
+################################################################################ Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-steamconf-2017.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-home-soko-workshop.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-sokokids.jpg"
+    [[params.mission.images.list]]
+      img = "images/home/sokotech-sokospace.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "Our will"
+    title = "Our will"
+    subtitle = "The purpose of SokoTech is to extend the use and understanding of technology, science, engineering, art and mathematics among society as a whole, without taking into account age, level of knowledge, status, capacities or gender."
+    description = "SokoTech wants to provide, with adhoc initiatives, access to the knowledge and skills necessary to adapt to a constantly changing world through the use of the most advanced technologies. We want to promote transversal and adapted learning to all ages, in a way that allows boys, girls, young people and adults, beginners or experts, to address the types of challenges and situations that they will find in the real environment and prepare them for the occupations of the 21st century.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "How we work"
+    title = "How we work"
+    subtitle = "SokoTech offers a wide range of programs and services:"
+    
+    description = "SokoTech offers a wide range of programs and services that we group in 4 areas: the curation and production of events (Soko Events), the laboratory of digital and analog manufacturing (Soko Lab), preparing girls and boys for the future (Soko Kids) and the integral communication, the design and the development web (Soko Dev& Comm)"
+ 
+  #[[params.mission.item]]
+  #  weight = 3
+  #  name = "strategy"
+  #  title = "Strategy"
+  #  subtitle = ""
+  #  description = "SokoTech offers a wide range of programs and services that we group in 4 areas:the curation and production of events (Soko Events), the laboratory of digital and analog manufacturing (Soko Lab), preparing girls and boys for the future (Soko Kids) and the integral communication, the design and the development web (Soko Dev & Comm)"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "#"
+  title = "Our Services"
+  description = "SokoTech offers a wide range of programs and services that we group in 6 areas:"
+
+
+
+
+
+
+
+################################################################################ Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "SteamConf"
+    subtitle = "International Education Conference"
+    img = "images/home-latest-projects/sokotech-home-steamconf.jpg"
+    link = "/events/steamconf"
+
+  [[params.work.item]]
+    title = "Smashing Conference"
+    subtitle = "For professional web designers and web developers"
+    img = "images/home-latest-projects/sokotech-home-smashingconf.jpg"
+    link = "/events/smashing-conference"
+    
+  [[params.work.item]]
+    title = "Maker Faire Barcelona"
+    subtitle = "The Greatest Show (and Tell) on Earth"
+    img = "images/home-latest-projects/sokotech-home-makerfaire.jpg"
+    link = "/events/maker-faire-barcelona"
+    
+  [[params.work.item]]
+    title = "SokoKids"
+    subtitle = "Knowledge academy for the young generation"
+    img = "images/home-latest-projects/sokotech-home-sokokids.jpg"
+    link = "kids"
+    
+  [[params.work.item]]
+    title = "New Friends"
+    subtitle = "International Social Robotics Conference"
+    img = "images/home-latest-projects/sokotech-home-newfriends.jpg"
+    link = "/events/new-friends-2016"
+    
+  [[params.work.item]]
+    title = "Decidim"
+    subtitle = "Decidim la Barcelona que volem"
+    img = "images/home-latest-projects/sokotech-home-decidim.jpg"
+    link = "/events/decidim"
+        
+  [[params.work.item]]
+    title = "In3dustry"
+    subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
+    img = "images/home-latest-projects/sokotech-home-in3dustry.jpg"
+    link = "/events/in3dustry"
+    
+  [[params.work.item]]
+    title = "Fab 10"
+    subtitle = "One week of events focused on open and accessible technologies that will change the world."
+    img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+    link = "/events/fab10-barcelona"
+
+
+
+
+
+
+
+############################################################################### Team section
+[params.team]
+  enable = false
+
+
+
+
+
+################################################################################ Contact section
+[params.contact]
+  enable = true
+  title = "Contact Us"
+  tel = "+34 93 763 85 78"
+  dir = "Carrer Valles i Ribot 34, 08027, Barcelona"
+  mail = "hello@soko.tech"
+  mascot = "/images/soko-logos/sokotech-linxs.svg"
+  logo = "/images/soko-logos/sokotech-logo-white.svg"
+
+
+
+
+
+
+################################################################################ Footer section
+[params.footer]
+  enable = true
+  mascot = "/images/soko-logos/sokotech-linxs.svg"
+  note = "<p><small>&copy; 2018 SokoTech</small></p>"
+  
+  instagram = "https://www.instagram.com/sokotech"
+  twitter = "https://twitter.com/sokotech"
+  facebook = "https://facebook.com/sokotech/"
+
+ 
+ 
+ 
+  
+  
+############################################################################### events section
+[params.events]
+  enable = true
+
+  [[params.events.item]]
+    title = "SteamConf"
+    subtitle = "International Education Conference"
+    img = "images/home-latest-projects/sokotech-home-steamconf.jpg"
+    link = "steamconf"
+
+  [[params.events.item]]
+    title = "Smashing Conference"
+    subtitle = "For professional web designers and web developers"
+    img = "images/home-latest-projects/sokotech-home-smashingconf.jpg"
+    link = "smashing-conference"
+
+  [[params.events.item]]
+    title = "Maker Faire Barcelona"
+    subtitle = "The Greatest Show (and Tell) on Earth"
+    img = "images/home-latest-projects/sokotech-home-makerfaire.jpg"
+    link = "maker-faire-barcelona"
+    
+  [[params.events.item]]
+    title = "New Friends 2016"
+    subtitle = "International Social Robotics Conference"
+    img = "images/home-latest-projects/sokotech-home-newfriends.jpg"
+    link = "new-friends-2016"
+    
+  [[params.events.item]]
+    title = "Decidim"
+    subtitle = "Decidim la Barcelona que volem"
+    img = "images/home-latest-projects/sokotech-home-decidim.jpg"
+    link = "decidim"
+        
+  [[params.events.item]]
+    title = "In3dustry"
+    subtitle = "The leading international manufacturing technology show in the context of manufacturing development."
+    img = "images/home-latest-projects/sokotech-home-in3dustry.jpg"
+    link = "in3dustry"
+    
+  [[params.events.item]]
+    title = "Fab 10"
+    subtitle = "One week of events focused on open and accessible technologies that will change the world."
+    img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+    link = "fab10-barcelona"    
+
+	#[[params.events.item]]
+	# title = "xxxx"
+	#subtitle = "description"
+	#img = "images/home-latest-projects/sokotech-home-fab10.jpg"
+  
+  
